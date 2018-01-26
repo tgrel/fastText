@@ -171,7 +171,7 @@ setup(
         str('fastText.util'),
         str('fastText.tests'),
     ],
-    setup_requires={'pybind11>=2.2'}
+    setup_requires={'pybind11>=2.2'},
     package_dir={str(''): str('python')},
     zip_safe=False,
 )
